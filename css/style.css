@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Nerko+One&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #3723f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 65px;
+    background-color: var(--main-bg-color);
+    color: white;
+    /* border: 2px solid red; */
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+
+
+ul a {
+    /* list-style:  none; */
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+ul a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 385px;
+    height: 43px;
+    border: 2px;
+    margin: 0 27px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 16px;
+
+}
+
+.container {
+    height: calc(100vh-65px-10vh);
+}
+.slider{
+    margin: 19px auto;
+    /* width: 50vw; */
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    border: 10px solid rgb(251, 251, 252);
+    margin: 11px 1px;
+    padding: 14px 10px;
+}
+.card-item{
+    margin: auto;
+    /* padding: auto; */
+    /* font-size: 15px; */
+    /* border: 0.5px solid rgb(213, 195, 247); */
+    max-width: 92vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    
+    
+}
+.card-item:hover{
+    font-weight: bolder;
+    color: rgb(168, 149, 132);
+    /* animation-name: hover;
+    animation-timing-function: ease-in-out; */
+    transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
+    transform: translateX(0px);
+
+}
+.card h2{
+    font-family:'Ubuntu', sans-serif;
+    margin: 13px 0px 17px 0px;
+}
+.card p{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bolder;
+    float: inline-end;
+    
+}
+footer {
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

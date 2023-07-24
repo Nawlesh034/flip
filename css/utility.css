@@ -1,0 +1,16 @@
+
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search img{
+    width: 26px;
+    /* height: 2px; */
+}
+.btn{
+    transform: rotate(270deg);
+    cursor: pointer; 
+}
